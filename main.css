@@ -104,9 +104,12 @@ body {font-family: 'Merriweather', serif;
 	  max-height: 100%;}
 	  
 h1,h2,h3,h4,h5 {font-size: 1em;
-	            text-transform: uppercase;}
+	         text-transform: uppercase;}
 
 img {max-width: 100%;}
+
+/* general formatting */
+
 
 .main-nav {background-color: #FFF;
               color: #FFF;
@@ -126,6 +129,9 @@ img {max-width: 100%;}
 .nav-icon:hover {color: #B9C800;}
 
 .close-icon {color: #000;}
+
+/* navigation */
+
 		 
 .page-header {margin: 0;
 			 padding-top: 10em;
@@ -144,11 +150,17 @@ img {max-width: 100%;}
 .main-nav {position: absolute;
            top: 1em; 
            right: 1em;}		
-						
+
+/* header */
+
+
 .page-body {padding: 0 0 0 2em;}
 
 h2 {font-style: italic;
 	font-size: 300%;}	
+
+/* body */
+
 
 .scarves {padding: 3.5em;
 		 padding-top: 2em;}
@@ -167,8 +179,6 @@ h2 {font-style: italic;
 			letter-spacing: 3px;
 			font-style: italic;
 			border-bottom: 1px solid;}
-			
-/*not sure about this formatting - it's horizontal but fucked up footer & about section
 
 .scarves p {font-family: 'Alice', serif;
 			padding: 1em;}
@@ -187,8 +197,6 @@ h2 {font-style: italic;
 			*/
 			
 .container {position: relative;}
-
-/* add ... float: right; ... to the container for horizontal formatting ...*/
 
 .image {opacity: 1;
 		transition: .5s ease;
@@ -221,10 +229,33 @@ h2 {font-style: italic;
 
 .details:hover {color: #C7D93B;}
 					 
-.clearfix {overflow: auto;}	
+.clearfix {overflow: auto;}
+
+/* scarves section */
+
 
 .page-about {padding: 0 0 0 2em;}
-				 
+	
+/* about section */
+
+
+.scarf-info {padding-top: 10em;}
+
+.scarf-img {position: relative;
+			float: left;
+			z-index: -500;}
+
+.scarf-info h1 {position: relative;
+				float: right;
+				padding: 0 2em;}
+				
+.info p {position: relative;
+		float: right;
+		padding: 4em 0 4em;}
+
+/* additional scarf page-info */
+
+
 .page-contact {background-color: #DBA539;
 			   color: #FFF;
 			   font-weight: normal;
@@ -252,23 +283,11 @@ h2 {font-style: italic;
 		padding: 0.7em;
 		text-align: center;}
 
-.scarf-info {padding-top: 10em;}
-
-.scarf-img {position: relative;
-			float: left;
-			z-index: -500;}
-
-.scarf-info h1 {position: relative;
-				float: right;
-				padding: 0 2em;}
-				
-.info p {position: relative;
-		float: right;
-		padding: 4em 0 4em;}
-
 h3 {text-align: center;}
 
 h3:hover {color: #C7D93B;}
+/* footer */
+
 
 /* ==========================================================================
    Helper classes
