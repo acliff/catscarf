@@ -113,13 +113,24 @@ img {max-width: 100%;}
 
 .main-nav {background-color: #FFF;
               color: #FFF;
-              position: relative;
+              position: absolute;
               padding: 0.5rem;
-              top: 0;
+              top: 1em;
+	      right: 1em;
               left: 0;
               width: 100%;
-			  z-index: 500;}
+	      z-index: 500;}
+
+.main-nav li {float: left;
+	      padding: 0 2em;
+	      padding-left: 8em;} 
 			  
+.main-nav a {text-decoration: none;
+	     text-transform: uppercase;}
+			  
+.main-nav a:hover {color: #C7D93B;} 
+
+/* navigation icon is preventing a:hover for links ... FIX THIS!
 .nav-icon {display: inline-block;
 		   padding: 0.75em 20em;
 		   color: #000;
@@ -129,6 +140,8 @@ img {max-width: 100%;}
 .nav-icon:hover {color: #B9C800;}
 
 .close-icon {color: #000;}
+
+*/
 
 /* navigation */
 
