@@ -172,17 +172,17 @@ h2 {font-style: italic;
 
 
 .scarves {padding: 3.5em;
-		 padding-top: 2em;}
+	 padding-top: 2em;}
 
 .scarves img {height: 300px;
-			  width: 300px;}
+	     width: 300px;}
 
 .scarves ,h5,h2,p {margin: 0;
-				   text-align: center;}
+		   text-align: center;}
 				   
 .scarves h5 {font-weight: 1;
-			padding: 0.5em;
-			letter-spacing: 0.2em;}
+       	     padding: 0.5em;
+	     letter-spacing: 0.2em;}
 				   
 .scarves h2 {font-family: 'Playfair Display', serif;
 			letter-spacing: 3px;
@@ -190,7 +190,7 @@ h2 {font-style: italic;
 			border-bottom: 1px solid;}
 
 .scarves p {font-family: 'Alice', serif;
-			padding: 1em;}
+	    padding: 1em;}
 			
 .signature-section {position: relative;
 			float: right;}
@@ -202,14 +202,17 @@ h2 {font-style: italic;
 			float: right;}
 			
 .seasonal-section {position: relative;
-			float: right;}
-			*/
+			float: right;
+			padding-right: 11em;}
 			
-.container {position: relative;}
+.container {position: relative;
+	   float: right;
+	   padding-right: 4em;
+	   padding-bottom: 4em;}
 
 .image {opacity: 1;
-		transition: .5s ease;
-		backface-visibility: hidden;}
+	transition: .5s ease;
+	backface-visibility: hidden;}
 		
 .middle {transition: .5s ease;
 			opacity: 0;
