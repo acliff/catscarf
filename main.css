@@ -255,38 +255,59 @@ h2 {font-style: italic;
 /*yarn background image*/
 
 
-.page-about {padding: 0 0 0 2em;}
-
+.page-about {margin-top: 0em;
+			 padding-top: 1em;
+			 padding-bottom: 40em;
+			 background-color: #FAF0E6;}
+			 
+.page-about h2 {border-bottom: 1px solid;
+				font-family: 'Playfair Display', serif;
+				letter-spacing: 3px;
+				font-style: italic;
+				border-bottom: 1px solid;}
+				
+.page-about h5 {font-weight: 1;
+				letter-spacing: 0.2em;
+				text-align: center;}
+				
+.page-about p {text-align: center;
+			   padding-top: 0.5em;
+			   padding-bottom: 1em;}
+			 
+.add-images {max-height: 120px;
+			max-width: 120px;}
+	
 .add-info {position: relative;
-	  padding: 0 0 0 4em;
-	  padding-right: 4em;}
+		  padding: 0 0 0 8em;
+		  padding-right: 4em;}
 
 .add-info h3 {text-decoration:underline;
-	     font-size: 25px;
-	     letter-spacing: 0.05em;}
+			  font-size: 25px;
+		  	  letter-spacing: 0.05em;}
 
 .add-info p {text-align: left;}
 
 .add-info h3:hover {color: #000;}
 
+.fit {position: relative;
+	  float: left;
+	  left: 1em;;
+	  width: 100%;
+	  padding-bottom: 0;}
+
+.yarns {position: absolute;
+		float: left;
+		left: 35em;;
+		width: 100%;
+		padding-bottom: 0;}
+		
+.hand {position: absolute;
+		float: left;
+		top: 1em;
+		left: 60em;
+		width: 100%;
+		margin-bottom: 0;}
 /* about section */
-
-
-.scarf-info {padding-top: 10em;}
-
-.scarf-img {position: relative;
-			float: left;
-			z-index: -500;}
-
-.scarf-info h1 {position: relative;
-		float: right;
-		padding: 0 2em;}
-				
-.info p {position: relative;
-	float: right;
-	padding: 4em 0 4em;}
-
-/* additional scarf page-info */
 
 
 .page-contact {background-color: #DBA539;
