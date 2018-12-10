@@ -187,7 +187,7 @@ h2 {font-style: italic;
 .scarves h5,h2,p {margin: 0;
 				   text-align: center;}
 				   
-.scarves h5 {font-weight: 1;
+.scarves h5 {font-weight: lighter;
 			padding: 0.5em;
 			letter-spacing: 0.2em;}
 				   
@@ -258,7 +258,6 @@ h2 {font-style: italic;
 		width: 100%;
 		height: 50%;}
 /*yarn background image*/
-	
 
 
 .page-about {margin-top: 0em;
@@ -272,7 +271,7 @@ h2 {font-style: italic;
 				font-style: italic;
 				border-bottom: 1px solid;}
 				
-.page-about h5 {font-weight: 1;
+.page-about h5 {font-weight: lighter;
 				letter-spacing: 0.2em;
 				text-align: center;}
 				
