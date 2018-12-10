@@ -151,16 +151,27 @@ h2 {font-style: italic;
 	      line-height: 1;
 	      text-align: center;}
 			 
-.page-header h1 {font-style: italic;
-		 font-size: 300%;
-		 font-family: 'Sacramento' sans-serif;}
+.header-container {position: absolute;
+				   text-align: center;}
 				 
-.page-header p {font-family: 'Sacramento', serif;
-		font-size: 400%;}
+.centered {position: relative;
+		  top: 550%;
+		  left: 550%;
+		  transform: translate(-550%,-550%);
+		  font-style: italic;
+		  font-size: 500%;
+		  font-family: 'Sacramento' sans-serif;}
 			 
-.page-header p:hover {color: #C7D93B;}		
-
-/* header */
+.bottom-centered {position: relative;
+				  bottom: 550%;
+				  left: 250%;
+				  transform: translate(-250%,-550%);
+				  font-family: 'Sacramento', serif;
+				  font-size: 400%;}				
+							 
+			 
+.bottom-centered:hover {color: #C7D93B;}	
+/* header */		
 
 
 .page-body {padding: 0 2em 0 0;}
