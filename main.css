@@ -248,6 +248,13 @@ h2 {font-style: italic;
 /* scarves section */
 
 
+.yarn {position: relative;
+		top: 1;
+		width: 100%;
+		height: 50%;}
+/*yarn background image*/
+
+
 .page-about {padding: 0 0 0 2em;}
 
 .add-info {position: relative;
