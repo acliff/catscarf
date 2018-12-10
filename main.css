@@ -152,7 +152,7 @@ h2 {font-style: italic;
 	      text-align: center;}
 			 
 .header-container {position: absolute;
-				   text-align: center;}
+		 text-align: center;}
 				 
 .centered {position: relative;
 		  top: 550%;
@@ -163,23 +163,15 @@ h2 {font-style: italic;
 		  font-family: 'Sacramento' sans-serif;}
 			 
 .bottom-centered {position: relative;
-				  bottom: 550%;
-				  left: 250%;
-				  transform: translate(-250%,-550%);
-				  font-family: 'Sacramento', serif;
-				  font-size: 400%;}				
+		  bottom: 550%;
+		  left: 250%;
+		  transform: translate(-250%,-550%);
+		  font-family: 'Sacramento', serif;
+		  font-size: 400%;}				
 							 
 			 
 .bottom-centered:hover {color: #C7D93B;}	
 /* header */		
-
-
-.page-body {padding: 0 2em 0 0;}
-
-h2 {font-style: italic;
-    font-size: 300%;}	
-
-/* body */
 
 
 .scarves {padding: 3.5em;
@@ -228,12 +220,13 @@ h2 {font-style: italic;
 .middle {transition: .5s ease;
 			opacity: 0;
 			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform:translate(-50%,-50%);
-			-ms-transform:translate(-50%,-50%);
-			border-radius: 50%;
-			text-align: center;}
+			top: 30%;
+			left: 30%;
+			transform:translate(-30%,-30%);
+			-ms-transform:translate(-30%,-30%);
+			border-radius: 20%;
+			text-align: center;
+			z-index: 1}
 			
 .container:hover .image {opacity: 0.5;}
 
@@ -248,12 +241,10 @@ h2 {font-style: italic;
 		
 .details {color: #000;
 		  font-family: 'Sacramento', serif;
-		  font-size: 20pt;}
+		  font-size: 20pt;
+		  text-align: center;}
 
 .details:hover {color: #C7D93B;}
-					 
-.clearfix {overflow: auto;}
-
 /* scarves section */
 
 
